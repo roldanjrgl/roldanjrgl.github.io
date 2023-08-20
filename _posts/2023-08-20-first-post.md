@@ -32,3 +32,15 @@ $\3 = x^2\$
 
 - second test 
 $$3 = x^2$$
+
+
+\begin{align}
+V_{sphere} = \frac{4}{3}\pi r^3
+\label{eq:test1}
+\end{align}
+
+In Eq. $\eqref{eq:test1}$ you can see...while in Eq. $\eqref{eq:test2}$...
+
+\begin{align}
+V_{cube} = l w h \label{eq:test2}
+\end{align}
