@@ -10,6 +10,8 @@ tags:
 
 This is my incredible first post
 
-$$
-3 = x^2
-$$
+- First test
+$3 = x^2$
+
+- second test 
+$$3 = x^2$$
