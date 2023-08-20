@@ -28,7 +28,7 @@ tags:
 This is my incredible first post
 
 - First test
-$3 = x^2$
+$\3 = x^2\$
 
 - second test 
 $$3 = x^2$$
