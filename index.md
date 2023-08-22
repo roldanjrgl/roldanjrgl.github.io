@@ -1,7 +1,7 @@
 ---
 title: "About"
 permalink: /
-layout: splash
+layout: default
 ---
 
 # Jorge Roldan
