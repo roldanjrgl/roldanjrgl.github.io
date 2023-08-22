@@ -1,8 +1,7 @@
 ---
 title: "About"
 permalink: /
-author_profile: true
-author: "Jorge Roldan"
+layout: splash
 ---
 
 # Jorge Roldan
