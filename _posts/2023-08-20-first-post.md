@@ -1,5 +1,5 @@
 ---
-title: "Probabilistic Linear Regression
+title: "Probabilistic Linear Regression"
 last_modified_at: 2023-08-18T11:14:02-05:00
 categories:
   - Blog
