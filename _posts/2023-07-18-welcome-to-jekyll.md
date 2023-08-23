@@ -1,12 +1,11 @@
 ---
-title: "Post: Modified Date"
+title: "Intro to Generalized Linear Models
 last_modified_at: 2023-07-18T16:20:02-05:00
 categories:
-  - Blog
+  - Project
 tags:
-  - Post Formats
-  - readability
-  - standard
+  - machine_learning
+  - deep_learning 
 ---
 
 This post has been updated and should show a modified date if used in a layout.

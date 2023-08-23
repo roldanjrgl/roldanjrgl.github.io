@@ -1,10 +1,10 @@
 ---
-title: "Post: First post :)"
+title: "Probabilistic Linear Regression
 last_modified_at: 2023-08-18T11:14:02-05:00
 categories:
   - Blog
 tags:
-  - first_post
+  - statistics 
 ---
 <script type="text/javascript"
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML">
