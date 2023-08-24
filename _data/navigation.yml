@@ -1,11 +1,15 @@
 main:
   - title: "About"
     url: /about/
+
   - title: "Posts"
     url: /posts/
+
   - title: "Tags"
     url: /tags/
-  - title: "Projects"
-    url: /projects/
+
+  - title: "Portfolio"
+    url: /portfolio/
+
   - title: "Categories"
     url: /categories/
