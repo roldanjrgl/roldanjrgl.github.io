@@ -1,6 +1,6 @@
 ---
 title: "Setting up a Conda environment"
-last_modified_at: 2023-07-18T16:20:02-05:00
+last_modified_at: 2023-08-23T21:17:02-05:00
 categories:
   - Tutorial
 tags:
