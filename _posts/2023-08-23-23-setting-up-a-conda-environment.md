@@ -6,7 +6,11 @@ categories:
 tags:
   - python 
   - data_science 
+toc: true
 ---
+
+
+{{ toc }}
 
 ## TLDR
 
@@ -42,6 +46,7 @@ For this tutorial, you will need to install [Python](https://www.python.org/down
 Anaconda.
 
 ## Create conda environment
+
 Before creating a conda environment, you need to check if conda is installed in your system. To do this, open your terminal and type:
 
 ```bash
