@@ -71,6 +71,14 @@ You are now ready to create your first conda environment. To do this, run:
 ```bash
 conda create --name my_conda_env python=3.10
 ```
+
+{: .notice--info}
+To specify the path where you want to create the environment, use the `--prefix` or `-p` flag. For example, to create the environment in the `default_path` directory, run: 
+
+```bash
+conda create --prefix <default_path>/my_conda_env python=3.10
+````
+
 Make you created the environment by running the following command:
 
 ```bash
@@ -120,6 +128,7 @@ numpy==1.25.2
 
 ## Install packages from a requirements.txt file
 If you have a `requirements.txt` file, you can install all the packages listed in it by running:
+
 
 ```bash
 pip install -r requirements.txt 
