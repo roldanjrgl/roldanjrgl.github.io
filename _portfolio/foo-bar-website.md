@@ -1,9 +1,9 @@
 ---
 title: "Project 3"
 excerpt: "Foo Bar design system including logo mark, website design, and branding applications."
-#header:
+header:
 #  image: /assets/images/foo-bar-identity.jpg
-#  teaser: /assets/images/foo-bar-identity-th.jpg
+  teaser: /assets/images/foo-bar-identity-th.jpg
 sidebar:
   - title: "Role"
     image: http://placehold.it/350x250
