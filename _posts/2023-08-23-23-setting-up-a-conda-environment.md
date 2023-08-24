@@ -138,3 +138,10 @@ conda deactivate
 ```
 
 As you will see, the `*` symbol is now next to the `base` environment.
+
+```bash
+# conda environments:
+#
+base                  *  /Users/Jroldan001/opt/anaconda3
+my_conda_env            /Users/Jroldan001/opt/anaconda3/envs/my_conda_env
+```
