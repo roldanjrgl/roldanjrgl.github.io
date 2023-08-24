@@ -2,7 +2,7 @@
 title: "Intro to Generalized Linear Models"
 last_modified_at: 2023-07-18T16:20:02-05:00
 categories:
-  - Project
+  - Blog 
 tags:
   - machine_learning
   - deep_learning 
