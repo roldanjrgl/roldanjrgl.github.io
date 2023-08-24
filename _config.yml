@@ -69,7 +69,9 @@ toc:
 author:
   name   : "Jorge Roldan"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Machine learning engineer -- MS in CS at NYU/Courant -- Math, CS, and ML lover"
+  bio    : "Machine learning engineer
+            MS in CS at NYU/Courant
+            Math, CS, and ML lover"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
