@@ -45,8 +45,7 @@ any dependency you will need.
 
 # Create conda environment
 ## Install and validate your anaconda or conda installation 
-For this tutorial, you will need to install [Python](https://www.python.org/downloads/) and [Anaconda](https://www.anaconda.com/download/), I recommend downloading miniconda, which is a lighter version of
-Anaconda.
+For this tutorial, you will need to install [Python](https://www.python.org/downloads/) and [Anaconda](https://www.anaconda.com/download/), I recommend downloading miniconda, which is a lighter version of Anaconda.
 
 Before creating a conda environment, you need to check if conda is installed in your system. To do this, open your terminal and type:
 
@@ -54,7 +53,7 @@ Before creating a conda environment, you need to check if conda is installed in 
 conda --version
 ```
 
-You should seesomething like this:
+You should see something like this:
 
 ```bash
 conda 4.12.0  
@@ -77,9 +76,6 @@ Make you created the environment by running the following command:
 ```bash
 conda env list
 ```
-
-As you can see, the environment you just created is listed in the output, but it is not active yet. To activate it, run:
-
 ```bash
 # conda environments:
 #
@@ -87,10 +83,11 @@ base                  *  /Users/Jroldan001/opt/anaconda3
 my_conda_env             /Users/Jroldan001/opt/anaconda3/envs/my_conda_env
 ```
 
+As you can see, the environment you just created is listed in the output, but it is not active yet. To activate it, run:
+
 ```bash
 conda activate /Users/Jroldan001/opt/anaconda3/envs/my_conda_env
 ```
-
 Now the `*` symbol is next to the environment you just activated.
 
 ```bash
@@ -103,7 +100,6 @@ my_conda_env          *  /Users/Jroldan001/opt/anaconda3/envs/my_conda_env
 ## Check `python` and `pip`
 Now that you created your environment, make sure that you are using the correct `python` and `pip`. For this run 
 `which python` and `which pip`. You should see the same path as the one you used to create the environment.
-
 
 # Install packages using pip
 Now that you have your environment set up, you can install any package you need. For this, you can use `pip`. For example, to install `numpy` run:
