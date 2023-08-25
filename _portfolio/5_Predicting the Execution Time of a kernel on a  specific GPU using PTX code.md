@@ -6,9 +6,9 @@ sidebar:
   - title: "Languages and technologies"
     image: /assets/images/pred_exec_ptx_code_1.png
     image_alt: "logo"
-    text: "Python, CUDA, PTX"
+    text: "Python, Scikit-learn"
   - title: "Keywords"
-    text: "Machine learning, multi-threaded applications"
+    text: "CUDA, PTX, Machine learning, multi-threaded applications"
 ---
 
 

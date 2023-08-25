@@ -6,9 +6,9 @@ sidebar:
   - title: "Languages and technologies"
     image: assets/images/project_performance_pred_ml_multi_app_fig1.png
     image_alt: "logo"
-    text: ""
+    text: "Python, Scikit-learn"
   - title: "Keywords"
-    text: ""
+    text: "Machine learning, multi-threaded applications, performance prediction"
 ---
 Multi-core processors, in 2022 are the default choice for a variety of computing needs from small Internet-of-Things devices to large super-computing clusters.  While developing applications and algorithms are primarily done with the needs of a single-threaded or single-core processor at the forefront, running these applications or algorithms in a multi-threaded setting is increasingly important with the limits of the processor manufacturing nearing the edge of quantum physics. 
 

@@ -6,9 +6,9 @@ sidebar:
   - title: "Languages and technologies"
     image: assets/images/semantic_seg_sat_imgs_1.png
     image_alt: "logo"
-    text: ""
+    text: "Python, Pytorch"
   - title: "Keywords"
-    text: ""
+    text: "U-Net, ResNet, U-Net++, Semantic Segmentation, Satellite Imagery"
 ---
 
 The ability to automatically classify the class at the pixel level of satellite imagery has a wide range of applications including monitoring, managing, and detecting changes of land cover. In this work, we used different versions of the ResNet model for classification tasks, and U-Net for the segmentation tasks. We explored the effect of three different losses, namely, Focal, Dice, and Cross entropy together with the mentioned models to find out the ideal configuration.
