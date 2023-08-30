@@ -1,10 +1,10 @@
 ---
 title: "Predicting the Execution Time of a kernel on a  specific GPU using PTX code"
 header:
-  teaser: /assets/images/pred_exec_ptx_code_1.png
+  teaser: /assets/images/sumeet-singh-CuGWtbkd5-k-unsplash.jpg
 sidebar:
   - title: "Languages and technologies"
-    image: /assets/images/pred_exec_ptx_code_1.png
+    image: /assets/images/sumeet-singh-CuGWtbkd5-k-unsplash.jpg
     image_alt: "logo"
     text: "Python, Scikit-learn"
   - title: "Keywords"

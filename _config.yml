@@ -75,21 +75,30 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://roldanjrgl.github.io/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/roldanjrgl"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/roldanjrgl/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/roldanjrgl"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/roldanjrgl"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/roldanjrgl"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://roldanjrgl.github.io/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/roldanjrgl/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/roldanjrgl"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/roldanjrgl"
 
 
 # Collections
