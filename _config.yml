@@ -27,6 +27,9 @@ search: true
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
@@ -58,6 +61,7 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-toc
+  - rouge
 
 # TOC Settings
 toc:
