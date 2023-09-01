@@ -40,15 +40,18 @@ for id, label in model.config.id2label.items():
 ```
 
 
+# What is sequence classification?
+- [sequence_classification.ipynb - notebook](https://colab.research.google.com/github/roldanjrgl/huggingface_deep_dive/blob/main/sequence_classification.ipynb)
 
-# Introduction
-- [Notebook](https://colab.research.google.com/github/roldanjrgl/huggingface_deep_dive/blob/main/sequence_classification.ipynb)
+One common NLP (Natural Language Processing) task is to classify a text into a set of predefined categories. Let's say we have a review for a given product, and we want to predict the number of stars from 1 ⭐️ to 5 ⭐️⭐️⭐️⭐️. This is an example of a sequence classification task. Below we see two reviews, one positive review with a probability of 5 stars rating of (0.571), and a negative review with a probability of 1 star rating of (0.901).
 
+{% include figure image_path="assets/posts/2023-08-25-23-sequence-classification-with-bert/pipeline_positive.png" alt="Pipeline" %}
+
+{% include figure image_path="assets/posts/2023-08-25-23-sequence-classification-with-bert/pipeline_negative.png" alt="Pipeline"  %}
+
+In this article, we will learn how to use a pretrained BERT model for sequence classification. We will go over step by step on how to use the [Huggingface Transformers](https://huggingface.co/transformers/) library to load a pretrained [BERT](https://huggingface.co/docs/transformers/model_doc/bert) model and tokenizer to predict the number of starts for a given review.
 
 # Using a pretrained BERT model for sequence classification
-
-{% include figure image_path="assets/posts/2023-08-25-23-sequence-classification-with-bert/pipeline_positive.png" alt="Pipeline"  %}
-{% include figure image_path="assets/posts/2023-08-25-23-sequence-classification-with-bert/pipeline_negative.png" alt="Pipeline"  %}
 
 
 # Setup model and tokenizer
@@ -81,6 +84,10 @@ print(f"{input:<15}: \t{value}"
 
 
 {% include figure image_path="assets/posts/2023-08-25-23-sequence-classification-with-bert/stage1.png" alt="stage1"  %}
+
+
+### Stage 1: Tokenization steps
+
 
 ## Stage 2: Model
 ```py
