@@ -14,7 +14,8 @@ toc: true
 
 
 # TLDR
-{% highlight python linenos %}
+
+```py
 import torch
 from transformers import AutoTokenizer, BertForSequenceClassification
 
@@ -36,7 +37,7 @@ with torch.no_grad():
 predictions = torch.nn.functional.softmax(logits, dim=-1)
 for id, label in model.config.id2label.items():
     print(f"{label:<7}:\t{round(float(predictions[0][id]), 3)}")
-{% endhighlight %}
+```
 
 
 
@@ -53,7 +54,7 @@ for id, label in model.config.id2label.items():
 # Setup model and tokenizer
 - Define difference between architecture and checkpoint
 
-{% highlight python linenos %}
+```py
 import torch
 from transformers import AutoTokenizer, BertForSequenceClassification
 
@@ -61,17 +62,14 @@ from transformers import AutoTokenizer, BertForSequenceClassification
 checkpoint = "nlptown/bert-base-multilingual-uncased-sentiment"
 tokenizer = AutoTokenizer.from_pretrained(checkpoint)
 model = BertForSequenceClassification.from_pretrained(checkpoint
-{% endhighlight %}
+```
 
 ## Save tokenizer to your local machine
-
-
-
 
 ## Save model to your local machine
 
 ## Stage 1: Preprocessing
-{% highlight python linenos %}
+```py
 # stage - 1
 text = "I really love this book\n"
 print(f"text:\t{text}")
@@ -79,7 +77,7 @@ inputs = tokenizer(text, return_tensors="pt"
 
 for input, value in inputs.items():
 print(f"{input:<15}: \t{value}"
-{% endhighlight %}
+```
 
 
 {% include figure image_path="assets/posts/2023-08-25-23-sequence-classification-with-bert/stage1.png" alt="stage1"  %}
