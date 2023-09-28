@@ -41,7 +41,7 @@ for id, label in model.config.id2label.items():
 
 
 # What is sequence classification?
-- [sequence_classification.ipynb - notebook](https://colab.research.google.com/github/roldanjrgl/huggingface_deep_dive/blob/main/sequence_classification.ipynb)
+- [sequence_classification.ipynb - notebook](https://github.com/roldanjrgl/huggingface_deep_dive/blob/main/sequence_classification.ipynb)
 
 One common NLP (Natural Language Processing) task is to classify a text into a set of predefined categories. Let's say we have a review for a given product, and we want to predict the number of stars from 1 ⭐️ to 5 ⭐️⭐️⭐️⭐️. This is an example of a sequence classification task. Below we see two reviews, one positive review with a probability of 0.571 for 5 stars rating, and a negative review with a probability of 0.901 for 1 star rating .
 
@@ -54,7 +54,11 @@ In this article, we will learn how to use a pretrained BERT model for sequence c
 # Using a pretrained BERT model for sequence classification
 
 # Setup model and tokenizer
-The BERT model was proposed in (BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding)[https://arxiv.org/abs/1810.04805] 
+The BERT model was proposed in [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805). 
+
+TODO: To use this model with Huggingface wee need to understand the difference between the model architecture and the checkpoint .
+- TODO: Example model architecture and class (BertForSequenceClassification)
+- TODO: Example checkpoint (nlptown/bert-base-multilingual-uncased-sentiment)
 
 
 
