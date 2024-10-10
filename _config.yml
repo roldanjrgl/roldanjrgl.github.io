@@ -44,11 +44,9 @@ timezone: America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_t
 
 include:
   - _pages
-#  - _includes/custom/head.html
 
-head_scripts:
-  - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
-  - assets/js/mathjax.html
+#head_scripts:
+#  - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
