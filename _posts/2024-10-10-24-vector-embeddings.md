@@ -38,26 +38,27 @@ toc: true
 One powerful way of evaluating the similarity between two documents is using cosine similarity which 
 is computed using equation \ref{dot_product}
 
-\begin{equation} \label{dot_product}
-dot \ product(\textbf{v}, \textbf{w}) = \textbf{v} \cdot \textbf{w} = \sum_{i=1}^{N} v_iw_i = v_1w_1 + v_2w_2 + \dots + v_Nw_N 
+$$ 
+\begin{equation} 
+    dot \ product(\textbf{v}, \textbf{w})
+        \begin{aligned}[t] 
+            &= \textbf{v} \cdot \textbf{w} \label{dot_product} \\
+            &= \sum_{i=1}^{N} v_iw_i \\
+            &= v_1w_1 + v_2w_2 + \dots + v_Nw_N
+        \end{aligned}
 \end{equation}
-
 $$
+
+One powerful way of evaluating the similarity between two documents is using cosine similarity which
+is computed using equation \ref{dot_product}
+
 \begin{equation}
-    f(x) = \begin{aligned}[t]
-    &x^2 + 2x + 1 \\
-    & = (x+1)^2 \\
-    & = x^2 + 2x + 1
-    \end{aligned} 
+    \begin{split}
+        f(x) &= x^2 + 2x + 1 \\
+             &= (x + 1)^2
+    \end{split}
+    \label{eq:split}
 \end{equation}
-$$
 
-$$
-\begin{align}
-    f(x) &= x^2 + 2x + 1 \\
-    &= (x+1)^2 \\
-    &= x^2 + 2x + 1
-\end{align}
-$$
 
-# Resources
+# Sources 
