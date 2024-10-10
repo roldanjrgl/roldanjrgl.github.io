@@ -1,5 +1,5 @@
 ---
-title: "Embeddings Draft"
+title: "Latex sample"
 last_modified_at: 2023-08-25T21:17:02-05:00
 categories:
   - Blog
@@ -52,3 +52,24 @@ We can write Maxwell's equations in tensor form using the `align` environment
 \mathrm{d}\mathcal{F} & = 0, \\\\\\
 ^\*\mathrm{d} ^\*\mathcal{F} & = \mathcal{J}.
 \end{align\*}
+
+
+
+$$
+\begin{equation}
+    f(x) = 
+        \begin{aligned}[t]
+            &x^2 + 2x + 1 \\
+            & = (x+1)^2 \\
+            & = x^2 + 2x + 1
+        \end{aligned}
+\end{equation}
+$$
+
+$$
+\begin{align}
+    f(x) &= x^2 + 2x + 1 \\
+         &= (x+1)^2 \\
+         &= x^2 + 2x + 1
+\end{align}
+$$

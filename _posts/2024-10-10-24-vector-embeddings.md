@@ -21,34 +21,43 @@ toc: true
 
 {{ toc }}
 
-# Start post
+# Outline brainstorm
+- Vector embeddings introduction
+- Intuition
+- Similarity between vectors
+- State-of-the-art models
+- Applications
+- Visualization in 2D and 3D
 
-The Newtonian gravitational potential is defined as
 
-\begin{equation} \label{test1}
-\phi = - \frac{G M}{r} .
+
+# Vector embeddings introductions
+
+
+# Similarity between vectors
+One powerful way of evaluating the similarity between two documents is using cosine similarity which 
+is computed using equation \ref{dot_product}
+
+\begin{equation} \label{dot_product}
+dot \ product(\textbf{v}, \textbf{w}) = \textbf{v} \cdot \textbf{w} = \sum_{i=1}^{N} v_iw_i = v_1w_1 + v_2w_2 + \dots + v_Nw_N 
 \end{equation}
 
-\begin{equation} \label{test2}
-\phi = - \frac{G M}{r} .
+$$
+\begin{equation}
+    f(x) = \begin{aligned}[t]
+    &x^2 + 2x + 1 \\
+    & = (x+1)^2 \\
+    & = x^2 + 2x + 1
+    \end{aligned} 
 \end{equation}
+$$
 
-Refering to equation \ref{test1} and \ref{test2}.
+$$
+\begin{align}
+    f(x) &= x^2 + 2x + 1 \\
+    &= (x+1)^2 \\
+    &= x^2 + 2x + 1
+\end{align}
+$$
 
-We can find the gravitational field by taking the gradient of the potential
-
-$$ \vec{g} = -\vec{\nabla}\phi. $$
-
-The line element for Minkowski space is \\(\mathrm{d}s^2 = -dt^2 + dx^2 + dy^2 + dz^2\\)
-
-Einstein's equations are
-
-\\[ G\_{\mu\nu} = 8\pi\, T\_{\mu\nu} \\]
-
-in geometric units where \\(G=c=1\\).
-
-We can write Maxwell's equations in tensor form using the `align` environment
-\begin{align\*}
-\mathrm{d}\mathcal{F} & = 0, \\\\\\
-^\*\mathrm{d} ^\*\mathcal{F} & = \mathcal{J}.
-\end{align\*}
+# Resources
