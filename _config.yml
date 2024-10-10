@@ -29,6 +29,7 @@ search: true
 markdown: kramdown
 kramdown:
   input: GFM
+  math_engine: mathjax
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     block:
@@ -47,7 +48,7 @@ include:
 
 head_scripts:
   - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
-#  - assets/js/mathjax.js
+  - assets/js/mathjax.html
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
